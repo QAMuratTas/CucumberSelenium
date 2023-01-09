@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976ce722-dc82-49e7-bb35-cdde9bee516a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/FristRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TagRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TagRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/MURAT/IdeaProjects/CucumberSelenium/src/test/java/stepdefinitions",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -47,7 +48,7 @@
       <recent name="C:\Users\MURAT\IdeaProjects\CucumberSelenium\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FristRunner">
+  <component name="RunManager" selected="JUnit.TagRunner">
     <configuration name="Scenario: Ilk test senaryosu" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/firstFeature.feature" />
@@ -82,8 +83,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TagRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TagRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TagRunner" />
         <item itemvalue="JUnit.FristRunner" />
         <item itemvalue="Cucumber Java.Scenario: Ilk test senaryosu" />
       </list>
