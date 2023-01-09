@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976ce722-dc82-49e7-bb35-cdde9bee516a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/GoogleSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/02_SeleniumTask.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/GoogleRunnerSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/02_SeleniumTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/02_SeleniumTask.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/firstFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/firstFeature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/02_SeleniumTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/02_SeleniumTask.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/firstFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/firstFeature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +57,16 @@
       <recent name="C:\Users\MURAT\IdeaProjects\CucumberSelenium\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir.">
+  <component name="RunManager" selected="JUnit.GoogleRunnerSearch">
     <configuration name="Scenario: Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/02_SeleniumTask.feature" />
+      <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberSelenium" />
       <option name="NAME_FILTER" value="^Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir\.$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir\.$&quot;" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Scenario: Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -67,7 +76,7 @@
         </pattern>
       </extension>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <configuration name="Scenario: Ilk test senaryosu" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -104,6 +113,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoogleRunnerSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.GoogleRunnerSearch" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TagRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberSelenium" />
       <extension name="coverage">
@@ -119,8 +143,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir." />
+      <item itemvalue="Cucumber Java.Scenario: Ilk test senaryosu" />
+      <item itemvalue="JUnit.GoogleRunnerSearch" />
+      <item itemvalue="JUnit.FristRunner" />
+      <item itemvalue="JUnit.TagRunner" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoogleRunnerSearch" />
         <item itemvalue="Cucumber Java.Scenario: Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir." />
         <item itemvalue="JUnit.TagRunner" />
         <item itemvalue="JUnit.FristRunner" />

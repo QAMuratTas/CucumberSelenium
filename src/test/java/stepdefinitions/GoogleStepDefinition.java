@@ -25,4 +25,16 @@ public class GoogleStepDefinition {
         Driver.closeDriver();
 
     }
+
+    @When("Kullanici nutella kelimesini arar")
+    public void kullaniciNutellaKelimesiniArar() {
+        GoogleSearchPage nt =new GoogleSearchPage (Driver.getDriver());
+        nt.searchFor("nutella");
+    }
+
+    @Then("Kullanici sayfada nutella kelimesi gectigini dogrular")
+    public void kullaniciSayfadaNutellaKelimesiGectiginiDogrular() {
+        Assert.assertTrue(Driver.getDriver().getTitle().contains("nutella"));
+        Driver.closeDriver();
+    }
 }
