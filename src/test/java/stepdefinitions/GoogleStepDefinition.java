@@ -40,17 +40,26 @@ public class GoogleStepDefinition {
 
     @When("Kullanici cucumber kelimesini arar")
     public void kullaniciCucumberKelimesiniArar() {
+        GoogleSearchPage nt =new GoogleSearchPage (Driver.getDriver());
+        nt.searchFor("cucumber");
+
     }
 
     @Then("Kullanici sayfada cucumber kelimesi gectigini dogrular")
     public void kullaniciSayfadaCucumberKelimesiGectiginiDogrular() {
+        Assert.assertTrue(Driver.getDriver().getTitle().contains("cucumber"));
+        Driver.closeDriver();
     }
 
     @When("Kullanici selenium kelimesini arar")
     public void kullaniciSeleniumKelimesiniArar() {
+        GoogleSearchPage nt =new GoogleSearchPage (Driver.getDriver());
+        nt.searchFor("selenium");
     }
 
     @Then("Kullanici sayfada selenium kelimesi gectigini dogrular")
     public void kullaniciSayfadaSeleniumKelimesiGectiginiDogrular() {
+        Assert.assertTrue(Driver.getDriver().getTitle().contains("selenium"));
+        Driver.closeDriver();
     }
 }
