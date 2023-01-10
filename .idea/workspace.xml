@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976ce722-dc82-49e7-bb35-cdde9bee516a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Parametirzed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/05_ScenarioOutline.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Parametirzed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ParameterizedStepsDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <recent name="C:\Users\MURAT\IdeaProjects\CucumberSelenium\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: 04_ParametrizedSteps">
+  <component name="RunManager" selected="Cucumber Java.Feature: 05_ScenarioOutline">
     <configuration name="Feature: 03_Background" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" />
@@ -80,6 +81,25 @@
       <module name="CucumberSelenium" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: 04_ParametrizedSteps" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: 05_ScenarioOutline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_ScenarioOutline.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberSelenium" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: 05_ScenarioOutline" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -131,40 +151,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: 'When I go to the Google search page, and search for an item," type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/hWgoogleSearch.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberSelenium" />
-      <option name="NAME_FILTER" value="^\'When I go to the Google search page\, and search for an item\,$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\'When I go to the Google search page\, and search for an item\,$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: 'When I go to the Google search page, and search for an item," />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: 03_Background" />
       <item itemvalue="Cucumber Java.Feature: 04_ParametrizedSteps" />
+      <item itemvalue="Cucumber Java.Feature: 05_ScenarioOutline" />
       <item itemvalue="Cucumber Java.Scenario: Kullanıcı cucumber aradğında cucumber görmelidir" />
       <item itemvalue="Cucumber Java.Scenario: Kullanıcı samsung aradğında samsung görmelidir" />
-      <item itemvalue="Cucumber Java.Scenario: 'When I go to the Google search page, and search for an item," />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: 05_ScenarioOutline" />
         <item itemvalue="Cucumber Java.Feature: 04_ParametrizedSteps" />
         <item itemvalue="Cucumber Java.Scenario: Kullanıcı cucumber aradğında cucumber görmelidir" />
         <item itemvalue="Cucumber Java.Scenario: Kullanıcı samsung aradğında samsung görmelidir" />
         <item itemvalue="Cucumber Java.Feature: 03_Background" />
-        <item itemvalue="Cucumber Java.Scenario: 'When I go to the Google search page, and search for an item," />
       </list>
     </recent_temporary>
   </component>
