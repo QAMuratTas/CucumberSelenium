@@ -40,8 +40,8 @@ public class GoogleStepDefinition {
 
     @When("Kullanici cucumber kelimesini arar")
     public void kullaniciCucumberKelimesiniArar() {
-        GoogleSearchPage nt =new GoogleSearchPage (Driver.getDriver());
-        nt.searchFor("cucumber");
+        GoogleSearchPage cc =new GoogleSearchPage (Driver.getDriver());
+        cc.searchFor("cucumber");
 
     }
 

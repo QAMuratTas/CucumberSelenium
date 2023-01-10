@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976ce722-dc82-49e7-bb35-cdde9bee516a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/GoogleSearchforHomeWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleSearchHw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/hWgoogleSearch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Parametirzed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +52,15 @@
       <recent name="C:\Users\MURAT\IdeaProjects\CucumberSelenium\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: 'When I go to the Google search page, and search for an item,">
-    <configuration name="Scenario: Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: 04_ParametrizedSteps">
+    <configuration name="Feature: 03_Background" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/02_SeleniumTask.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberSelenium" />
-      <option name="NAME_FILTER" value="^Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir\.$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir." />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: 03_Background" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -70,7 +69,66 @@
         </pattern>
       </extension>
       <method v="2">
-        <option name="MakeProject" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: 04_ParametrizedSteps" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberSelenium" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: 04_ParametrizedSteps" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Kullanıcı cucumber aradğında cucumber görmelidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberSelenium" />
+      <option name="NAME_FILTER" value="^Kullanıcı cucumber aradğında cucumber görmelidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Kullanıcı cucumber aradğında cucumber görmelidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı cucumber aradğında cucumber görmelidir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Kullanıcı samsung aradğında samsung görmelidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberSelenium" />
+      <option name="NAME_FILTER" value="^Kullanıcı samsung aradğında samsung görmelidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Kullanıcı samsung aradğında samsung görmelidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı samsung aradğında samsung görmelidir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Scenario: 'When I go to the Google search page, and search for an item," type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -93,65 +151,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FristRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.FristRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoogleRunnerSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.GoogleRunnerSearch" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TagRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.TagRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: 03_Background" />
+      <item itemvalue="Cucumber Java.Feature: 04_ParametrizedSteps" />
+      <item itemvalue="Cucumber Java.Scenario: Kullanıcı cucumber aradğında cucumber görmelidir" />
+      <item itemvalue="Cucumber Java.Scenario: Kullanıcı samsung aradğında samsung görmelidir" />
       <item itemvalue="Cucumber Java.Scenario: 'When I go to the Google search page, and search for an item," />
-      <item itemvalue="Cucumber Java.Scenario: Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir." />
-      <item itemvalue="JUnit.GoogleRunnerSearch" />
-      <item itemvalue="JUnit.FristRunner" />
-      <item itemvalue="JUnit.TagRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: 04_ParametrizedSteps" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanıcı cucumber aradğında cucumber görmelidir" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanıcı samsung aradğında samsung görmelidir" />
+        <item itemvalue="Cucumber Java.Feature: 03_Background" />
         <item itemvalue="Cucumber Java.Scenario: 'When I go to the Google search page, and search for an item," />
-        <item itemvalue="JUnit.GoogleRunnerSearch" />
-        <item itemvalue="Cucumber Java.Scenario: Google da bir kelime arandığında ilgili kelimeyi barındıran sonuclar görüntülenmelidir." />
-        <item itemvalue="JUnit.TagRunner" />
-        <item itemvalue="JUnit.FristRunner" />
       </list>
     </recent_temporary>
   </component>
