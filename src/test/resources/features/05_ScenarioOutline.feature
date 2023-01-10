@@ -1,14 +1,15 @@
 Feature: Google Arama Feature
 
-  Background:
-    Given Kullanici google sayfasindadir
+  #Scenario Outline DDT(data driven test) yapma yetenegini bizlere saglar.
+  #Testimiz tabloda bulunan satir sayisi(ilk satir haric) kadar sirasiyla her bir satirdaki verilerle calistirilir
 
   Scenario Outline:
     Given Kullanici google sayfasindadir
     When Kullanici "<aranacakKelime>" arattiginda
-    Then Kullanici title da "<dogrunalcakKelime>" gormelidir
+    Then Kullanici title da "<dogrulanacakKelime>" gormelidir
 
     Examples:
-    |aranacakKelime|dogrunalcakKelime|
-    |cucumber      |cucumber         |
-    |selenium      |selenium         |
+      |aranacakKelime|dogrulanacakKelime|
+      |samsung       |samsungabc        |
+      |cucumber      |cucumber          |
+      |selenium      |selenium          |

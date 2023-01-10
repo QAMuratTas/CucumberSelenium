@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976ce722-dc82-49e7-bb35-cdde9bee516a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/05_ScenarioOutline.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/AmazonHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Amazonstepdefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/06_ScenarioOutlineExample.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Parametirzed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/ParameterizedStepsDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/05_ScenarioOutline.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/05_ScenarioOutline.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
