@@ -37,4 +37,20 @@ public class GoogleStepDefinition {
         Assert.assertTrue(Driver.getDriver().getTitle().contains("nutella"));
         Driver.closeDriver();
     }
+
+    @When("Kullanici cucumber kelimesini arar")
+    public void kullaniciCucumberKelimesiniArar() {
+    }
+
+    @Then("Kullanici sayfada cucumber kelimesi gectigini dogrular")
+    public void kullaniciSayfadaCucumberKelimesiGectiginiDogrular() {
+    }
+
+    @When("Kullanici selenium kelimesini arar")
+    public void kullaniciSeleniumKelimesiniArar() {
+    }
+
+    @Then("Kullanici sayfada selenium kelimesi gectigini dogrular")
+    public void kullaniciSayfadaSeleniumKelimesiGectiginiDogrular() {
+    }
 }
