@@ -8,6 +8,7 @@ import io.cucumber.java.en.When;
 public class ParameterizedStepsExampleStepDefinitions {
 
     private int int1,int2;
+    private int sonuc;
 
     @Given("Ilk Sayi {int}")
     public void ılkSayi(int sayi) {
@@ -19,12 +20,29 @@ public class ParameterizedStepsExampleStepDefinitions {
         int2=sayi;
     }
 
-    @When("Bu sayilari + operatorune sokarsam")
-    public void buSayilariOperatoruneSokarsam() {
+    @When("Bu sayilari {word} operatorune sokarsam")
+    public void buSayilariOperatoruneSokarsam(String operator) {
+        switch (operator) {
+
+            case "+":
+                sonuc =int1 + int2;
+                break;
+            case "-":
+                sonuc =int1 - int2;
+                break;
+            case "/":
+                sonuc =int1 / int2;
+                break;
+            case "*":
+                sonuc =int1 * int2;
+                break;
+
+
+        }
 
     }
 
     @Then("Sonuc {int} olmalidir")
-    public void sonucOlmalidir(int arg0) {
+    public void sonucOlmalidir(int sonuc) {
     }
 }
