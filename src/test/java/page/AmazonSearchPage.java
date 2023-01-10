@@ -22,6 +22,8 @@ public class AmazonSearchPage {
 
 
     public void validateResultTextHasKey(String key){
+
         Assert.assertTrue(resultText.getText().contains(key));
+
     }
 }

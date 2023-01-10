@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import page.GoogleSearchforHomeWork;
 import utilities.Driver;
 
@@ -29,5 +30,7 @@ public class GoogleSearchHw {
 
     @Then("The title confirms that cucumber is written")
     public void theTitleConfirmsThatCucumberIsWritten() {
+        Assert.assertTrue(Driver.getDriver().getTitle().contains("cucumber"));
+
     }
 }

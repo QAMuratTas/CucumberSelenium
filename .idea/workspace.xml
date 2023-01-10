@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976ce722-dc82-49e7-bb35-cdde9bee516a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/07_Hooks.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/AmazonSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/AmazonSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleSearchHw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleSearchHw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/07_Hooks.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/07_Hooks.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
       <recent name="C:\Users\MURAT\IdeaProjects\CucumberSelenium\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: 07_Hooks">
+  <component name="RunManager" selected="Cucumber Java.Feature: 06_ScenarioOutlineExample">
     <configuration name="Feature: 04_ParametrizedSteps" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" />
@@ -89,6 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: 06_ScenarioOutlineExample" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/06_ScenarioOutlineExample.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberSelenium" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: 06_ScenarioOutlineExample" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: 07_Hooks" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/07_Hooks.feature" />
@@ -108,35 +129,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Kullanıcı cucumber aradğında cucumber görmelidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: hWgoogleSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" />
-      <option name="GLUE" value="stepdefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/hWgoogleSearch.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberSelenium" />
-      <option name="NAME_FILTER" value="^Kullanıcı cucumber aradğında cucumber görmelidir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Kullanıcı cucumber aradğında cucumber görmelidir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı cucumber aradğında cucumber görmelidir" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Kullanıcı samsung aradğında samsung görmelidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/03_Background.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberSelenium" />
-      <option name="NAME_FILTER" value="^Kullanıcı samsung aradğında samsung görmelidir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Kullanıcı samsung aradğında samsung görmelidir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Kullanıcı samsung aradğında samsung görmelidir" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: hWgoogleSearch" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -151,17 +151,17 @@
     <list>
       <item itemvalue="Cucumber Java.Feature: 04_ParametrizedSteps" />
       <item itemvalue="Cucumber Java.Feature: 05_ScenarioOutline" />
+      <item itemvalue="Cucumber Java.Feature: 06_ScenarioOutlineExample" />
       <item itemvalue="Cucumber Java.Feature: 07_Hooks" />
-      <item itemvalue="Cucumber Java.Scenario: Kullanıcı cucumber aradğında cucumber görmelidir" />
-      <item itemvalue="Cucumber Java.Scenario: Kullanıcı samsung aradğında samsung görmelidir" />
+      <item itemvalue="Cucumber Java.Feature: hWgoogleSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: 06_ScenarioOutlineExample" />
+        <item itemvalue="Cucumber Java.Feature: 04_ParametrizedSteps" />
+        <item itemvalue="Cucumber Java.Feature: hWgoogleSearch" />
         <item itemvalue="Cucumber Java.Feature: 07_Hooks" />
         <item itemvalue="Cucumber Java.Feature: 05_ScenarioOutline" />
-        <item itemvalue="Cucumber Java.Feature: 04_ParametrizedSteps" />
-        <item itemvalue="Cucumber Java.Scenario: Kullanıcı cucumber aradğında cucumber görmelidir" />
-        <item itemvalue="Cucumber Java.Scenario: Kullanıcı samsung aradğında samsung görmelidir" />
       </list>
     </recent_temporary>
   </component>
