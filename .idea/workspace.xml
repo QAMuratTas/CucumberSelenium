@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976ce722-dc82-49e7-bb35-cdde9bee516a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/OrangeHRMLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/OrangeHRMStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/08_DateTime.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +48,7 @@
       <recent name="C:\Users\MURAT\IdeaProjects\CucumberSelenium\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC07_Baslikli datatable">
+  <component name="RunManager" selected="JUnit.ReportRunner">
     <configuration name="Feature: 04_ParametrizedSteps" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/04_ParametrizedSteps.feature" />
@@ -90,44 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: 07_Hooks" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/07_Hooks.feature" />
-      <option name="GLUE" value="stepdefinitions hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberSelenium" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: 07_Hooks" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: hWgoogleSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/hWgoogleSearch.feature" />
-      <option name="GLUE" value="stepdefinitions hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberSelenium" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: hWgoogleSearch" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: TC07_Baslikli datatable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/08_DateTime.feature" />
@@ -148,20 +107,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: TC08_Baslikli coklu satir datatable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/08_DateTime.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberSelenium" />
+      <option name="NAME_FILTER" value="^TC08_Baslikli coklu satir datatable$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC08_Baslikli coklu satir datatable$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC08_Baslikli coklu satir datatable" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.ReportRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Scenario: TC07_Baslikli datatable" />
+      <item itemvalue="Cucumber Java.Scenario: TC08_Baslikli coklu satir datatable" />
       <item itemvalue="Cucumber Java.Feature: 04_ParametrizedSteps" />
       <item itemvalue="Cucumber Java.Feature: 06_ScenarioOutlineExample" />
-      <item itemvalue="Cucumber Java.Feature: 07_Hooks" />
-      <item itemvalue="Cucumber Java.Feature: hWgoogleSearch" />
+      <item itemvalue="JUnit.ReportRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReportRunner" />
+        <item itemvalue="Cucumber Java.Scenario: TC08_Baslikli coklu satir datatable" />
         <item itemvalue="Cucumber Java.Scenario: TC07_Baslikli datatable" />
         <item itemvalue="Cucumber Java.Feature: 06_ScenarioOutlineExample" />
         <item itemvalue="Cucumber Java.Feature: 04_ParametrizedSteps" />
-        <item itemvalue="Cucumber Java.Feature: hWgoogleSearch" />
-        <item itemvalue="Cucumber Java.Feature: 07_Hooks" />
       </list>
     </recent_temporary>
   </component>
